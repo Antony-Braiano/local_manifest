@@ -3,19 +3,19 @@
 
  <!-- Remotes -->
 
-   <remote name="coduxer" fetch="https://github.com/coduxer" />
-   <remote name="linag" fetch="https://github.com/LineageOS" />
+   <remote name="Braiano" fetch="https://github.com/Antony-Braiano" />
+   <remote name="Sayann" fetch="https://github.com/Sayann70" />
    <remote name="jabiyeff" fetch="https://github.com/Jabiyeff" />
 
  <!-- Trees -->
 
-   <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="coduxer" revision="L-20.0" />
-   <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="coduxer" revision="L-20.0" />
+   <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="Braiano" revision="13" />
+   <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="Braiano" revision="13" />
    <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="Jabiyeff" revision="12" />
 
  <!-- Hardware xiaomi -->
 
-   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-20" />
+   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sayann" revision="13" />
  
  <!-- Removal of HALs -->
 
